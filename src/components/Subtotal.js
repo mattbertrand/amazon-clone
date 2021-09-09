@@ -32,7 +32,9 @@ function Subtotal() {
 				{user && (
 					<button onClick={e => history.push('/payment')}>Proceed to Checkout</button>
 				)}
-            
+				{!user && (
+					<button onClick={e => history.push('/login')}>Sign in or create account to complete checkout</button>
+				)}
         </div>
     )
 }
