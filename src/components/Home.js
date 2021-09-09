@@ -61,6 +61,26 @@ function Home() {
                     image="https://m.media-amazon.com/images/I/71qE6chtx+L._AC_UL640_FMwebp_QL65_.jpg"
                     rating={4}/>
                 </div>
+				<div className="home__row">
+				<Product
+                    id="07841235" 
+                    title="Monocular Telescope - 12X50 Professional Portable Waterproof Monocular with Smartphone Adapter, HD Super Zoom BAK4 Monocular for Adults Kids for Bird Watching, Camping, Hiking"
+                    price={41.99}
+                    image="https://images-na.ssl-images-amazon.com/images/I/71LMuFAWbRL._AC_UL675_SR675,480_.jpg"
+                    rating={2}/>
+                    <Product
+                    id="078832567" 
+                    title="Wyze Cam Spotlight, Wyze Cam v3 Security Camera with Spotlight Kit, 1080p HD Security Camera with Two-Way Audio and Siren, IP65 Weatherproof, Compatible with Alexa and Google Assistant"
+                    price={47.80}
+                    image="https://images-na.ssl-images-amazon.com/images/I/61E8RWSXtoS._AC_UL675_SR675,480_.jpg"
+                    rating={5}/>
+                    <Product
+                    id="05342667" 
+                    title="Interior Car Lights Keepsmile Car Accessories Car Led Lights APP Control with Remote Music Sync Color Change RGB Under Dash Car Lighting with Car Charger 12V 2A LED Lights for Car (RGB)"
+                    price={14.99}
+                    image="https://images-na.ssl-images-amazon.com/images/I/716rOtQsgjS._AC_UL675_SR675,480_.jpg"
+                    rating={3}/>
+				</div>
             </div>
         </div>
     )
